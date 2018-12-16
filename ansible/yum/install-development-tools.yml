@@ -1,0 +1,7 @@
+- hosts: all
+  user: root
+
+  tasks:
+    - name: 開発者ツールのインストール
+      yum:
+        name: "@Development Tools"
